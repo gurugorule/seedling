@@ -11,27 +11,27 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
     
-    /* Updated vibrant primary colors */
-    --primary: 190 100% 50%; /* Bright cyan */
+    /* Updated vibrant primary colors for Clips.ai */
+    --primary: 195 100% 50%; /* Bright cyan */
     --primary-foreground: 210 20% 98%;
     
     /* New gradient colors */
-    --gradient-1: 190 100% 50%; /* Bright cyan */
-    --gradient-2: 130 100% 50%; /* Vibrant green */
+    --gradient-1: 195 100% 50%; /* Bright cyan */
+    --gradient-2: 145 100% 50%; /* Vibrant green */
     --gradient-3: 45 100% 50%;  /* Bright orange */
-    --gradient-4: 325 100% 50%; /* Hot pink */
+    --gradient-4: 330 100% 50%; /* Hot pink */
     
     --secondary: 220 14.3% 95.9%;
     --secondary-foreground: 220.9 39.3% 11%;
     --muted: 220 14.3% 95.9%;
     --muted-foreground: 220 8.9% 46.1%;
-    --accent: 130 100% 50%; /* Vibrant green */
+    --accent: 145 100% 50%; /* Vibrant green */
     --accent-foreground: 220.9 39.3% 11%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 20% 98%;
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 190 100% 50%; /* Bright cyan */
+    --ring: 195 100% 50%; /* Bright cyan */
     --radius: 0.75rem;
   }
 
@@ -42,19 +42,19 @@
     --card-foreground: 210 20% 98%;
     --popover: 224 71% 4%;
     --popover-foreground: 210 20% 98%;
-    --primary: 190 100% 50%;
+    --primary: 195 100% 50%;
     --primary-foreground: 210 20% 98%;
     --secondary: 215 27.9% 16.9%;
     --secondary-foreground: 210 20% 98%;
     --muted: 215 27.9% 16.9%;
     --muted-foreground: 217.9 10.6% 64.9%;
-    --accent: 130 100% 50%;
+    --accent: 145 100% 50%;
     --accent-foreground: 210 20% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 20% 98%;
     --border: 215 27.9% 16.9%;
     --input: 215 27.9% 16.9%;
-    --ring: 190 100% 50%;
+    --ring: 195 100% 50%;
   }
 }
 
@@ -102,27 +102,4 @@
     rgba(76, 175, 80, 0.05) 50%,
     transparent 100%
   );
-}
-
-.pricing-card {
-  @apply relative overflow-hidden;
-  background: linear-gradient(135deg, 
-    hsl(var(--card)) 0%, 
-    hsl(var(--accent)/0.1) 100%
-  );
-  transform-style: preserve-3d;
-}
-
-.pricing-card.featured {
-  background: linear-gradient(135deg, 
-    #00B4D8 0%,
-    #4CAF50 100%
-  );
-  @apply text-white;
-}
-
-/* Glassmorphism */
-.glass-effect {
-  @apply backdrop-blur-lg bg-white/10 dark:bg-black/10;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }

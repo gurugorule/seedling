@@ -58,6 +58,7 @@
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.446.0",
+    "marked": "^15.0.4",
     "mongoose": "^8.2.0",
     "next": "13.5.1",
     "next-themes": "^0.3.0",
