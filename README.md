@@ -4,7 +4,7 @@
 
 Seedling is a cutting-edge AI-powered video creation platform designed for content creators, marketers, and businesses. Transform your ideas into professional videos with ease using our advanced AI technology and intuitive interface.
 
-## 🌱 Features
+## Features
 
 ### Core Capabilities
 - **AI Video Creation**: Transform text into professional videos
@@ -25,7 +25,7 @@ Seedling is a cutting-edge AI-powered video creation platform designed for conte
 - 3D card effects
 - Real-time collaboration
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -56,7 +56,7 @@ PORT=5000
 npm run dev
 ```
 
-## 🔒 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the root directory with these variables:
 
@@ -64,7 +64,7 @@ Create a `.env` file in the root directory with these variables:
 - `JWT_SECRET`: Secret key for JWT token generation
 - `PORT`: Server port (default: 5000)
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 seedling/
@@ -91,9 +91,9 @@ seedling/
 └── public/              # Static assets
 ```
 
-## 📝 Implementation Status
+## Implementation Status
 
-### Frontend ✅
+### Frontend
 - [x] Add video preview component
 - [x] Implement drag-and-drop interface
 - [x] Add progress indicators for video processing
@@ -106,27 +106,31 @@ seedling/
 - [x] Create API documentation
 - [x] Add integration with popular platforms
 
-### Backend ✅
+### Backend
 - [x] Set up video processing queue
 - [x] Implement file upload with chunks
 - [x] Add rate limiting for API endpoints
 - [x] Create backup system for user data
 - [x] Implement webhook system for notifications
 
-### Performance ✅
+### Performance
 - [x] Implement caching system
 - [x] Optimize video processing
 - [x] Add CDN support
 - [x] Implement lazy loading for video assets
 - [x] Add performance monitoring
 
-### Security ✅
+### Security
 - [x] Add 2FA authentication
 - [x] Implement API key system
 - [x] Add content encryption
 - [x] Set up security headers
 - [x] Add rate limiting for auth endpoints
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
+
+## License
+
+This project is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. You are free to use, modify, and distribute the code, but only for non-commercial purposes.
