@@ -7,7 +7,7 @@ import { Toaster } from '@/components/ui/toaster';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Seedling - AI-Powered Video Creation Platform',
+  title: 'Clips.ai - AI-Powered Video Creation Platform',
   description: 'Create stunning videos with AI-powered tools and templates',
 };
 

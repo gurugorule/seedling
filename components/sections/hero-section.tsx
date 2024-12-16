@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatedButton } from "@/components/ui/animated-button";
-import { Sparkles } from "lucide-react";
+import { Scissors } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
@@ -18,7 +18,7 @@ export function HeroSection() {
     <section className="pt-32 pb-20 px-4 hero-gradient">
       <div className="container mx-auto text-center">
         <div className="inline-block mb-4">
-          <Sparkles className="h-12 w-12 text-[#00B4D8] animate-pulse" />
+          <Scissors className="h-12 w-12 text-[#00B4D8] animate-pulse" />
         </div>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
           Create Stunning Videos with{" "}
@@ -50,14 +50,14 @@ export function HeroSection() {
       <Dialog open={showDemo} onOpenChange={setShowDemo}>
         <DialogContent className="max-w-4xl">
           <DialogHeader>
-            <DialogTitle>Seedling Demo</DialogTitle>
+            <DialogTitle>Clips.ai Demo</DialogTitle>
           </DialogHeader>
           <div className="aspect-video rounded-lg overflow-hidden">
             <iframe
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              title="Seedling Demo"
+              title="Clips.ai Demo"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="border-0"
