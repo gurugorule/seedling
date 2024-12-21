@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Book, Code, Cpu, FileText, Settings } from "lucide-react";
+import { Book, Code, Cpu, FileText, Settings, Lightbulb, Layout, Server } from "lucide-react";
 
 const sections = [
   {
@@ -13,29 +13,24 @@ const sections = [
       { href: "/docs", icon: Book, label: "Introduction" },
       { href: "/docs/installation", icon: Settings, label: "Installation" },
       { href: "/docs/quickstart", icon: Cpu, label: "Quick Start" },
+      { href: "/docs/tutorials", icon: Lightbulb, label: "Tutorials" },
     ]
   },
   {
-    title: "Architecture",
+    title: "Core Features",
     links: [
-      { href: "/docs/architecture", icon: FileText, label: "Overview" },
-      { href: "/docs/frontend", icon: Code, label: "Frontend" },
-      { href: "/docs/backend", icon: Cpu, label: "Backend" },
+      { href: "/docs/features/editor", icon: Layout, label: "Video Editor" },
+      { href: "/docs/features/ai", icon: Cpu, label: "AI Features" },
+      { href: "/docs/features/templates", icon: FileText, label: "Templates" },
+      { href: "/docs/features/collaboration", icon: Code, label: "Collaboration" },
     ]
   },
   {
     title: "API Reference",
     links: [
-      { href: "/docs/api/auth", icon: FileText, label: "Authentication" },
+      { href: "/docs/api/authentication", icon: Server, label: "Authentication" },
       { href: "/docs/api/projects", icon: FileText, label: "Projects" },
       { href: "/docs/api/videos", icon: FileText, label: "Videos" },
-    ]
-  },
-  {
-    title: "Contributing",
-    links: [
-      { href: "/docs/contributing", icon: Book, label: "Guidelines" },
-      { href: "/docs/code-of-conduct", icon: FileText, label: "Code of Conduct" },
     ]
   }
 ];
